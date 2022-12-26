@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let score = prompt("คะแนน ?");
+        // if (score >= 80) {
+        //     alert("คุณได้เกรด A");
+        // } else if (score >= 70 & score <= 79) {
+        //     alert("คุณได้เกรด B");
+        // } else if (score >= 60 & score <= 69) {
+        //     alert("คุณได้เกรด C");
+        // } else if (score >= 50 & score <= 59) {
+        //     alert("คุณได้เกรด D");
+        // } else {
+        //     alert("คุณได้เกรด F");
+        // }
+        let msg = (score>=80) ? "คุณได้เกรด A" :
+        (score>=70 & score<=79) ? "คุณได้เกรด B" :
+        (score>=60 & score<=69) ? "คุณได้เกรด C" :
+        (score>=50 & score<=59) ? "คุณได้เกรด D" :
+        "คุณได้เกรด F" ;
+        alert(msg);
+    </script>
+</body>
+</html>
